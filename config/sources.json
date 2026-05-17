@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "name": "LessWrong AI",
+      "url": "https://www.lesswrong.com/w/ai?sortedBy=new",
+      "feedUrl": null,
+      "sourceWeight": 4,
+      "mode": "html"
+    },
+    {
+      "name": "Substack Technology",
+      "url": "https://substack.com/explore/category/technology?sort=recent",
+      "feedUrl": null,
+      "sourceWeight": 3,
+      "mode": "html"
+    },
+    {
+      "name": "Latent Space AI News",
+      "url": "https://www.latent.space/s/ainews",
+      "feedUrl": "https://www.latent.space/feed",
+      "sourceWeight": 5,
+      "mode": "feed"
+    },
+    {
+      "name": "The Rundown AI",
+      "url": "https://www.therundown.ai/",
+      "feedUrl": null,
+      "sourceWeight": 4,
+      "mode": "html"
+    },
+    {
+      "name": "Simon Willison",
+      "url": "https://simonwillison.net/",
+      "feedUrl": "https://simonwillison.net/atom/everything/",
+      "sourceWeight": 5,
+      "mode": "feed"
+    },
+    {
+      "name": "smol.ai News",
+      "url": "https://news.smol.ai/",
+      "feedUrl": "https://buttondown.com/ainews/rss",
+      "sourceWeight": 5,
+      "mode": "feed"
+    },
+    {
+      "name": "Frontier AI Lab Tracker",
+      "url": "https://cleverhack.com/frontier-ai-lab-tracker",
+      "feedUrl": null,
+      "sourceWeight": 3,
+      "mode": "html"
+    }
+  ]
+}
+
