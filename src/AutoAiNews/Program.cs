@@ -6,12 +6,12 @@ var generator = new NewsGenerator(new HttpArticleFetcher());
 var result = await generator.GenerateAsync(options.ConfigPath);
 var markdown = MarkdownRenderer.Render(result, DateTimeOffset.UtcNow);
 
-Directory.CreateDirectory(options.ReportsDirectory);
-var reportPath = Path.Combine(options.ReportsDirectory, $"{DateTimeOffset.UtcNow:yyyy-MM-dd}.md");
+var outputDirectory = Path.GetDirectoryName(options.OutputPath);
+if (!string.IsNullOrWhiteSpace(outputDirectory))
+{
+    Directory.CreateDirectory(outputDirectory);
+}
 
-await File.WriteAllTextAsync(options.ReadmePath, markdown);
-await File.WriteAllTextAsync(reportPath, markdown);
+await File.WriteAllTextAsync(options.OutputPath, markdown);
 
-Console.WriteLine($"Wrote {options.ReadmePath}");
-Console.WriteLine($"Wrote {reportPath}");
-
+Console.WriteLine($"Wrote {options.OutputPath}");
