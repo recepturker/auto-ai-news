@@ -21,6 +21,15 @@ public class NewsPipelineTests
     }
 
     [Fact]
+    public void AppOptions_supports_custom_output_path()
+    {
+        var options = AppOptions.FromArgs(["--config", "custom.json", "--output", "daily-report.md"]);
+
+        Assert.Equal("custom.json", options.ConfigPath);
+        Assert.Equal("daily-report.md", options.OutputPath);
+    }
+
+    [Fact]
     public void NewsItem_calculates_reading_minutes_from_word_count()
     {
         var candidate = new ArticleCandidate(

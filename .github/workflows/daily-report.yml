@@ -28,13 +28,18 @@ jobs:
         run: dotnet test --no-restore --configuration Release
 
       - name: Generate report
-        run: dotnet run --project src/AutoAiNews/AutoAiNews.csproj --configuration Release --no-restore
+        run: dotnet run --project src/AutoAiNews/AutoAiNews.csproj --configuration Release --no-restore -- --output daily-report.md
 
-      - name: Commit report
+      - name: Publish release
+        env:
+          GH_TOKEN: ${{ github.token }}
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md reports/
-          git diff --cached --quiet || git commit -m "Update daily AI report"
-          git push
+          REPORT_DATE="$(TZ=Europe/Istanbul date +%F)"
+          TAG="daily-ai-report-${REPORT_DATE}"
+          TITLE="Daily AI Report - ${REPORT_DATE}"
 
+          if gh release view "${TAG}" >/dev/null 2>&1; then
+            gh release edit "${TAG}" --title "${TITLE}" --notes-file daily-report.md --latest
+          else
+            gh release create "${TAG}" --title "${TITLE}" --notes-file daily-report.md --target "${GITHUB_SHA}" --latest
+          fi

@@ -1,12 +1,11 @@
 namespace AutoAiNews;
 
-public sealed record AppOptions(string ConfigPath, string ReadmePath, string ReportsDirectory)
+public sealed record AppOptions(string ConfigPath, string OutputPath)
 {
     public static AppOptions FromArgs(string[] args)
     {
         var configPath = "config/sources.json";
-        var readmePath = "README.md";
-        var reportsDirectory = "reports";
+        var outputPath = "generated/daily-report.md";
 
         for (var i = 0; i < args.Length; i++)
         {
@@ -20,16 +19,12 @@ public sealed record AppOptions(string ConfigPath, string ReadmePath, string Rep
                 case "--config":
                     configPath = args[++i];
                     break;
-                case "--readme":
-                    readmePath = args[++i];
-                    break;
-                case "--reports":
-                    reportsDirectory = args[++i];
+                case "--output":
+                    outputPath = args[++i];
                     break;
             }
         }
 
-        return new AppOptions(configPath, readmePath, reportsDirectory);
+        return new AppOptions(configPath, outputPath);
     }
 }
-
