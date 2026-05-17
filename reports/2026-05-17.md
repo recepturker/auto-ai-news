@@ -1,11 +1,31 @@
 # Auto AI News
 
-Generated: 2026-05-17 09:34 UTC
+Generated: 2026-05-17 09:35 UTC
 
 A daily report from a strict list of curated AI sources.
 
 ## Latest Links
 
+- ★★★★☆ [Not so locked in any more](https://simonwillison.net/2026/May/14/not-so-locked-in/#atom-everything) - 2 min - Simon Willison - 2026-05-14
+- ★★★★☆ [Quoting Mitchell Hashimoto](https://simonwillison.net/2026/May/14/mitchell-hashimoto/#atom-everything) - 1 min - Simon Willison - 2026-05-14
+- ★★★★☆ [Welcome to the Datasette blog](https://simonwillison.net/2026/May/13/welcome-to-the-datasette-blog/#atom-everything) - 1 min - Simon Willison - 2026-05-13
+- ★★★★☆ [llm 0.32a2](https://simonwillison.net/2026/May/12/llm/#atom-everything) - 2 min - Simon Willison - 2026-05-12
+- ★★★★☆ [Thoughts on GitLab's workforce reduction" and "structural and strategic decisions"](https://simonwillison.net/2026/May/11/gitlab-act-2/#atom-everything) - 4 min - Simon Willison - 2026-05-11
+- ★★★★☆ [Quoting James Shore](https://simonwillison.net/2026/May/11/james-shore/#atom-everything) - 2 min - Simon Willison - 2026-05-11
+- ★★★★☆ [Your AI Use Is Breaking My Brain](https://simonwillison.net/2026/May/11/zombie-internet/#atom-everything) - 2 min - Simon Willison - 2026-05-11
+- ★★★★☆ [Using LLM in the shebang line of a script](https://simonwillison.net/2026/May/11/llm-shebang/#atom-everything) - 2 min - Simon Willison - 2026-05-11
+- ★★★★☆ [Learning on the Shop floor](https://simonwillison.net/2026/May/11/learning-on-the-shop-floor/#atom-everything) - 2 min - Simon Willison - 2026-05-11
+- ★★★★☆ [Quoting Luke Curley](https://simonwillison.net/2026/May/9/luke-curley/#atom-everything) - 2 min - Simon Willison - 2026-05-09
+- ★★★★☆ [Using Claude Code: The Unreasonable Effectiveness of HTML](https://simonwillison.net/2026/May/8/unreasonable-effectiveness-of-html/#atom-everything) - 3 min - Simon Willison - 2026-05-08
+- ★★★☆☆ [Warelay -> OpenClaw](https://simonwillison.net/2026/May/16/openclaw-names/#atom-everything) - 2 min - Simon Willison - 2026-05-16
+- ★★★☆☆ [QR code generator](https://simonwillison.net/2026/May/15/qr-code-generator/#atom-everything) - 2 min - Simon Willison - 2026-05-15
+- ★★★☆☆ [datasette-llm-limits 0.1a0](https://simonwillison.net/2026/May/15/datasette-llm-limits/#atom-everything) - 1 min - Simon Willison - 2026-05-15
+- ★★★☆☆ [Quoting Boris Mann](https://simonwillison.net/2026/May/13/boris-mann/#atom-everything) - 1 min - Simon Willison - 2026-05-13
+- ★★★☆☆ [Quoting New York Times Editors’ Note](https://simonwillison.net/2026/May/10/new-york-times-editors-note/#atom-everything) - 1 min - Simon Willison - 2026-05-10
+- ★★★☆☆ [\[AINews\] Anthropic growing 10x/year while everyone else is laying off >10% of their workforce](https://www.latent.space/p/ainews-anthropic-growing-10xyear) - 9 min - Latent Space AI News - 2026-05-09
+- ★★★☆☆ [\[AINews\] GPT-Realtime-2, -Translate, and -Whisper: new SOTA realtime voice APIs](https://www.latent.space/p/ainews-gpt-realtime-2-translate-and) - 9 min - Latent Space AI News - 2026-05-08
+- ★★★☆☆ [\[AINews\] Anthropic-SpaceXai's 300MW/$5B/yr deal for Colossus I, ARR growth is 8000% annualized](https://www.latent.space/p/ainews-anthropic-spacexais-300mw5byr) - 16 min - Latent Space AI News - 2026-05-07
+- ★★★☆☆ [🔬Doing Vibe Physics — Alex Lupsasca, OpenAI](https://www.latent.space/p/lupsasca) - 11 min - Latent Space AI News - 2026-05-05
 - ★★★☆☆ [Anthropic, SpaceX(AI) become unlikely compute partners PLUS: Use Claude Design’s slide decks feature like a pro Zach Mink, +4](https://www.therundown.ai/p/anthropic-spacex-ai-become-unlikely-compute-partners) - 9 min - The Rundown AI
 - ★★★☆☆ [Exclusive: Cisco launches AI Defense PLUS: Free event to learn from OpenAI, Scale AI, and more Rowan Cheung, +1](https://www.therundown.ai/p/cisco-announces-ai-defense) - 8 min - The Rundown AI
 - ★★★☆☆ [Exclusive: Microsoft AI launches Copilot Vision PLUS: Infinite memory, AI companions, AI agents, and more Rowan Cheung, +1](https://www.therundown.ai/p/microsoft-ai-launches-copilot-vision) - 9 min - The Rundown AI
@@ -16,23 +36,8 @@ A daily report from a strict list of curated AI sources.
 - ★★★☆☆ [OpenAI's AI phone just jumped the line PLUS: Make your Notion agents more autonomous Zach Mink, +4](https://www.therundown.ai/p/openai-ai-phone-just-jumped-the-line) - 9 min - The Rundown AI
 - ★★☆☆☆ [A Stolen Charity or Sour Grapes? Musk’s OpenAI Suit Is in Jury’s Hands.](https://www.nytimes.com/2026/05/14/technology/openai-trial-elon-musk-sam-altman.html?unlocked_article_code=1.ilA.P6GP.U2RMfHa4TjXn&smid=tw-share) - 1 min - Frontier AI Lab Tracker
 - ★★☆☆☆ [Anthropic agrees terms of $30bn funding deal at $900bn valuation](https://www.ft.com/content/9deae3c6-716d-4f4d-8b09-434d8519f847) - 1 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [Anthropic Spat With US Emerges as Risk Factor for Figma, Others](https://www.bloomberg.com/news/articles/2026-05-14/anthropic-spat-with-us-emerges-as-risk-factor-for-figma-others) - 1 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [Anthropic's hunt to find the next Claude Code](https://sources.news/p/anthropic-mike-krieger-interview-future-claude-ai) - 4 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [Cerebras CFO: "We serve all models, and there is no limit to the size of the models that we can serve. Today, we're serving trillion parameter models. We're serving trillion parameter models that are internal for OpenAI today. We are currently running OpenAI 5.4 and 5.5 with them."](https://x.com/rwang07/status/2055809944017142065) - 1 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [Greg Brockman Officially Takes Control of OpenAI's Products in Latest Shakeup](https://www.wired.com/story/openai-reorg-greg-brockman-product/) - 7 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [High-stakes courtroom drama of Musk v OpenAI hears closing arguments](https://www.theguardian.com/technology/2026/may/14/sam-altman-elon-musk-openai-lawsuit) - 8 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [Is OpenAI changing its tune on AI laws?](https://www.transformernews.ai/p/is-openai-changing-its-tune-on-ai-laws-illinois-regulation) - 18 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [Is OpenAI’s super PAC paying for an army of Twitter bots to engage with their content?](https://x.com/TheMidasProj/status/2055411833184399448) - 1 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [Musk's xAI Unveils First Coding Agent in Bid to Rival Anthropic](https://www.bloomberg.com/news/articles/2026-05-14/musk-s-xai-unveils-first-coding-agent-in-bid-to-rival-anthropic) - 1 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [OpenAI Accused of Handing Over Your Intimate Personal Information to Meta and Google](https://futurism.com/artificial-intelligence/openai-personal-information-meta-google) - 7 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [OpenAI is offering ChatGPT Plus to citizens of Malta for a year](https://www.engadget.com/2174473/openai-is-offering-chatgpt-plus-to-citizens-of-malta-for-a-year/) - 3 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [OpenAI now wants ChatGPT to access your bank accounts](https://www.theverge.com/ai-artificial-intelligence/931122/openai-chatgpt-financial-accounts-plaid-connection) - 7 min - Frontier AI Lab Tracker
-- ★★☆☆☆ [OpenAI takes Codex mobile PLUS: Automate marketing assets with ChatGPT Images 2.0 Zach Mink, +4](https://www.therundown.ai/p/openai-takes-codex-mobile) - 9 min - The Rundown AI
-- ★★☆☆☆ [The enterprise shift OpenAI saw coming PLUS: Turn prompts into content with Claude Code and Higgsfield Zach Mink, +4](https://www.therundown.ai/p/the-enterprise-shift-openai-saw-coming) - 9 min - The Rundown AI
-- ★★☆☆☆ [the personal finance product openai launched is actually one of the worst personal finance tools i’ve ever used in my entire life. borderline hazardous for people with low financial literacy to be using i had chatgpt tell me everything it messed up](https://x.com/khushkhushkhush/status/2055707700953047271) - 1 min - Frontier AI Lab Tracker
 
 ## Inaccessible Links
 
 - LessWrong AI: https://www.lesswrong.com/w/ai?sortedBy=new - HTTP 429 Too Many Requests
-- Latent Space AI News: https://www.latent.space/feed - Connection failed: AccessDenied
-- Simon Willison: https://simonwillison.net/atom/everything/ - Connection failed: AccessDenied
+- Substack Technology: https://substack.com/explore/category/technology?sort=recent - HTTP 403 Forbidden
