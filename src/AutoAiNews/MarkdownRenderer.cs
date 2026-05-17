@@ -13,6 +13,8 @@ public static class MarkdownRenderer
         builder.AppendLine();
         builder.AppendLine("A daily report from a strict list of curated AI sources.");
         builder.AppendLine();
+        builder.AppendLine("> Transparency: this project was built with help from AI coding tools. This report is an automated aggregator; original content belongs to the linked publishers and authors.");
+        builder.AppendLine();
         builder.AppendLine("## Latest Links");
         builder.AppendLine();
 
